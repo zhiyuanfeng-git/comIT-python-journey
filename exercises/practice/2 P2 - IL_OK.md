@@ -23,6 +23,7 @@
      | F | T |  F    |  F    | F               |
      | F | F |  F    |  F    | F               |
     * a ^ (b v ~a)
+
      | a | b | ~a  | b v ~a | a ^ (b v ~a) |
      |---|---|-----|--------|--------------|
      | T | T | F   | T      |  T           |
@@ -49,6 +50,7 @@
 
 3. Build the truth tables for the following propositional forms.
    * p -> (q -> r)
+  
    | p | q | r | q -> r | p -> (q -> r) |
    |---|---|---|--------|---------------|
    | T | T | T |   T    |       T       |
@@ -60,6 +62,7 @@
    | F | F | T |   T    |       T       |
    | F | F | F |   T    |       T       |
    * (p ^ q) -> r
+  
    | p | q | r | p ^ q | (p ^ q) -> r |
    |---|---|---|-------|--------------|
    | T | T | T |   T   |      T       |
@@ -73,6 +76,7 @@
 
 4. Build the truth tables for the following propositional forms.
    * (p -> q) ^ (q -> r)
+  
    | p | q | r | p -> q | q -> r | (p -> q) ^ (q -> r) |
    |---|---|---|--------|--------|---------------------|
    | T | T | T |    T   |   T    |         T           |
@@ -85,6 +89,7 @@
    | F | F | F |    T   |   T    |         T           |
 
    * ( p -> q ) -> r
+  
    | p | q | r | p -> q | (p -> q) -r |
    |---|---|---|--------|-------------|
    | T | T | T |   T    |      T      |
